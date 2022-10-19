@@ -10,7 +10,7 @@ exports.getAllLearner = (req,res) =>{
 
 
 exports.getLearnerByFilter = (req,res) =>{
-    
+    var data = req.body;
     var filter = {};
     for (const key in data) {
         filter[key] = data[key]

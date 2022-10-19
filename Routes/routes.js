@@ -30,6 +30,9 @@ router.patch("/courses/update",course_controller.UpdateCourseByFeilds)
 router.delete("/courses/delete",course_controller.DeleteCourseByFeilds)
 
 
+module.exports = router;
+
+
 
 
 

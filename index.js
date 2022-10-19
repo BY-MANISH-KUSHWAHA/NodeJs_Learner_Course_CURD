@@ -8,6 +8,9 @@ var app = express();
 app.use(express.json());
 
 
+app.use("/assignment",routes)
+
+
 
 app.use('/welcome', (req, res) => {
     res.send("<h2>Welcome To </h2><h1>   Blue Yoner 2022</h1><h2> Training Module.</h2>");

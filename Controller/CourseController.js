@@ -10,7 +10,7 @@ exports.getAllCourse = (req,res) =>{
 
 
 exports.getCourseByFilter = (req,res) =>{
-    
+    var data = req.body;
     var filter = {};
     for (const key in data) {
         filter[key] = data[key]
