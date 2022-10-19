@@ -1,0 +1,24 @@
+{
+  "name": "nodejs_learner_course_curd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BY-MANISH-KUSHWAHA/NodeJs_Learner_Course_CURD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BY-MANISH-KUSHWAHA/NodeJs_Learner_Course_CURD/issues"
+  },
+  "homepage": "https://github.com/BY-MANISH-KUSHWAHA/NodeJs_Learner_Course_CURD#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.6.5"
+  }
+}
